@@ -1,0 +1,342 @@
+{
+ "source": "google/fleurs (cmn_hans_cn, dev split)",
+ "n_candidates": 315,
+ "n_asr": 30,
+ "n_clone": 8,
+ "asr_set": [
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_01.wav",
+   "text": "这是马特利 (Martelly) 四年来第五次入选海地临时选举委员会 (CEP)。",
+   "duration": 5.34,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "12458238763518474227.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_02.wav",
+   "text": "虚拟实地考察是高科技的解决方案。学生可以在课堂上观看博物馆的人工制品，参观水族馆，或者欣赏精美的艺术品。",
+   "duration": 13.8,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "3802121691135715433.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_03.wav",
+   "text": "因为远离大陆，哺乳动物无法长途跋涉而来，使得巨龟成为科隆群岛主要的食草动物。",
+   "duration": 7.8,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "17449495458038572773.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_04.wav",
+   "text": "人工智能 (AI) 的研究涉及制造机器让需要智能行为的任务自动化。",
+   "duration": 12.98,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "8805751513643106981.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_05.wav",
+   "text": "伤员被送往医院后，打斗平息下来，剩下的约 40 名囚犯留在院子里，拒绝回牢房。",
+   "duration": 8.34,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "6906456307843788023.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_06.wav",
+   "text": "科学家表示，这种动物的羽毛顶部为栗棕色，底部为浅色或胡萝卜色。",
+   "duration": 7.08,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "3421010432618760857.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_07.wav",
+   "text": "全国各地的著名歌手都唱祈祷歌献给 Shri Shyam。",
+   "duration": 6.36,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "7486100454806109704.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_08.wav",
+   "text": "全国各地的著名歌手都唱祈祷歌献给 Shri Shyam。",
+   "duration": 9.3,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "6255611743708698667.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_09.wav",
+   "text": "他们仍在努力确定这次撞击的规模以及对地球的影响。",
+   "duration": 13.46,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "941788232993516659.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_10.wav",
+   "text": "在这个迷人的村庄漫步半小时是值得的。",
+   "duration": 5.1,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "7967524639119264013.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_11.wav",
+   "text": "与其他地方提供的更详细的信息相比，这里所提供的建议往往较为粗略、笼统且过于简单。",
+   "duration": 8.1,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "4010631644160943335.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_12.wav",
+   "text": "许多常见格式（例如 APS 格式系列）都与这个长宽比相同或相当接近。",
+   "duration": 7.8,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "314744401266810503.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_13.wav",
+   "text": "在冰雪覆盖的路面上，摩擦力很小，你不能像在光洁的柏油路上一样开车。",
+   "duration": 6.36,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "14130676014228881557.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_14.wav",
+   "text": "原则上，藏传佛教是非常简单的。它包括昆达里尼瑜伽、冥想和普世之爱的方法。",
+   "duration": 10.56,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "15894616257670705478.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_15.wav",
+   "text": "当被要求发表看法时，米勒说：“迈克在听证会上说了很多……我当时正在做准备，所以没听清他在说什么。”",
+   "duration": 8.4,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "2437950840726729404.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_16.wav",
+   "text": "绘图分析的结果将发布在公网上。",
+   "duration": 3.9,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "16344808851156693606.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_17.wav",
+   "text": "这成了普遍做法，但铁片会使木制的马车轮子磨损更严重。",
+   "duration": 11.5,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "3043135732293070923.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_18.wav",
+   "text": "虚拟实地考察是高科技的解决方案。学生可以在课堂上观看博物馆的人工制品，参观水族馆，或者欣赏精美的艺术品。",
+   "duration": 10.38,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "7341726713769207398.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_19.wav",
+   "text": "公园占地 19500 平方公里，分为 14 个不同的生态区，为不同的野生动植物提供支持。",
+   "duration": 11.82,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "562538176848805954.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_20.wav",
+   "text": "虽然车撞到房子时，房子里面有三个人，但最后并没有人受伤。",
+   "duration": 6.78,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "6874015149987983836.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_21.wav",
+   "text": "随着时间的推移，新的种群开始适应新的环境，它们开始变得与其他种群越来越不相似了。",
+   "duration": 9.72,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "16633803057902745786.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_22.wav",
+   "text": "最后结果是一分险胜，比分为 21 比 20，结束了全黑队连胜 15 场的局面。",
+   "duration": 9.9,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "15186714544890313846.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_23.wav",
+   "text": "然而，我们百分之八十的商品在中美洲国家被征收关税。……我们对待你。",
+   "duration": 9.66,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "6445599301852784472.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_24.wav",
+   "text": "然而，大多数指示牌都只使用加泰罗尼亚语，因为这是法律规定的第一官方语言。",
+   "duration": 8.46,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "15228223886481437167.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_25.wav",
+   "text": "这是马特利 (Martelly) 四年来第五次入选海地临时选举委员会 (CEP)。",
+   "duration": 9.24,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "12777520601088301837.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_26.wav",
+   "text": "请给予此地应得的尊严、庄严和尊重。不要用大屠杀或纳粹开玩笑。",
+   "duration": 11.22,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "3263500030075038552.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_27.wav",
+   "text": "我觉得这毫无道理；显然不公平。",
+   "duration": 3.66,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "src_id": "13719601250695601702.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_28.wav",
+   "text": "日本拥有近 7000 个岛屿（最大的是本州岛），这让日本成为了世界第七大岛国！",
+   "duration": 10.86,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "2951737996965818994.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_29.wav",
+   "text": "女性应该意识到文化差异可能会导致她们所认为的骚扰行为；而且被人尾随、抓胳膊等情况并不少见。",
+   "duration": 11.76,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "9187237130798115263.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\asr_30.wav",
+   "text": "西班牙人开始了长达三个世纪的殖民时期。",
+   "duration": 7.26,
+   "sr": 16000,
+   "gender": "MALE",
+   "src_id": "11896869400830064294.wav"
+  }
+ ],
+ "clone_set": [
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_01_F_ref.wav",
+   "text": "虚拟实地考察是高科技的解决方案。学生可以在课堂上观看博物馆的人工制品，参观水族馆，或者欣赏精美的艺术品。",
+   "duration": 10.38,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "speaker_id": "cluster0",
+   "role": "ref",
+   "src_id": "7341726713769207398.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_01_F_held.wav",
+   "text": "当被要求发表看法时，米勒说：“迈克在听证会上说了很多……我当时正在做准备，所以没听清他在说什么。”",
+   "duration": 10.08,
+   "sr": 16000,
+   "gender": "FEMALE",
+   "speaker_id": "cluster0",
+   "role": "held",
+   "src_id": "13092781268631895562.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_02_M_ref.wav",
+   "text": "这名患者曾去过尼日利亚，当地曾出现数宗埃博拉病毒的病例。",
+   "duration": 10.5,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster1",
+   "role": "ref",
+   "src_id": "15564411723736095779.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_02_M_held.wav",
+   "text": "一般来说，卫星电话不能取代移动电话，因为只有在卫星信号畅通的室外，才能进行通话。",
+   "duration": 10.2,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster1",
+   "role": "held",
+   "src_id": "7647548698103706904.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_03_M_ref.wav",
+   "text": "起初，裙装深受东方拜占庭文化的影响。",
+   "duration": 10.46,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster2",
+   "role": "ref",
+   "src_id": "17079624522102661075.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_03_M_held.wav",
+   "text": "我觉得这毫无道理；显然不公平。",
+   "duration": 10.14,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster2",
+   "role": "held",
+   "src_id": "10564317445815190288.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_04_M_ref.wav",
+   "text": "全国各地的著名歌手都唱祈祷歌献给 Shri Shyam。",
+   "duration": 9.3,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster3",
+   "role": "ref",
+   "src_id": "6255611743708698667.wav"
+  },
+  {
+   "wav": "D:\\fishspeech\\data\\testset\\clone_04_M_held.wav",
+   "text": "他们仍在努力确定这次撞击的规模以及对地球的影响。",
+   "duration": 8.94,
+   "sr": 16000,
+   "gender": "MALE",
+   "speaker_id": "cluster3",
+   "role": "held",
+   "src_id": "15522730049013430241.wav"
+  }
+ ],
+ "speaker_clusters": {
+  "n_clusters": 5,
+  "sizes": {
+   "0": 119,
+   "1": 81,
+   "2": 16,
+   "3": 5,
+   "4": 1
+  },
+  "intra_mean": 0.79,
+  "inter_mean": 0.2
+ }
+}

@@ -1,0 +1,62 @@
+# =============================================================
+# 统一语音处理服务 —— 依赖清单
+# 目标硬件: NVIDIA GeForce RTX 3060 12GB (Ampere, sm_86)
+# 运行时:   Python 3.11.9 (embeddable) + CUDA 12.4
+# 安装方式见 README.md「四、依赖安装」
+# =============================================================
+
+# ---------- 基础科学计算 ----------
+numpy<=1.26.4
+soundfile>=0.12.1
+librosa>=0.10.1
+scipy>=1.11.0
+tqdm>=4.66.0
+loguru>=0.7.0
+natsort>=8.4.0
+click>=8.1.0
+
+# ---------- PyTorch (CUDA 12.4 构建，需走 PyTorch 官方/交大索引) ----------
+# 注意: 这两行必须由带 --index-url 的命令单独安装，不能走 PyPI
+# torch==2.6.0+cu124
+# torchaudio==2.6.0+cu124
+
+# ---------- FishSpeech 1.5 推理 ----------
+transformers>=4.45.2
+einops>=0.7.0
+einx[torch]==0.2.2
+tiktoken>=0.8.0
+hydra-core>=1.3.2
+omegaconf>=2.3.0
+pydantic>=2.9.2
+vector_quantize_pytorch==1.14.24
+resampy>=0.4.3
+pydub>=0.25.1
+
+# ---------- ASR (faster-whisper, CTranslate2 后端) ----------
+faster-whisper>=1.0.3
+ctranslate2>=4.4.0
+av>=11.0.0
+tokenizers>=0.20.0
+
+# ---------- 服务框架 ----------
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+ormsgpack>=1.5.0
+cachetools>=5.5.0
+
+# ---------- 口型同步 ----------
+# 视频输出依赖 imageio-ffmpeg 自带的 ffmpeg 二进制（本机无系统 ffmpeg）
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+pillow>=10.3.0
+opencv-python-headless>=4.10.0
+# 中文汉字 -> 拼音 -> 音素 -> 口型
+pypinyin>=0.51.0
+
+# ---------- 评估指标 ----------
+# 音色相似度: SpeechBrain ECAPA-TDNN 说话人编码
+speechbrain>=1.0.0
+# 中文文本归一化/字错误率计算辅助
+jieba>=0.42.1
+editdistance>=0.8.1
